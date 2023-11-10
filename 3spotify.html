@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option">
+                        <img src="library_icon.png">
+                        <a href="#">Your Library</a>
+
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <div class="box-p1">Create your first playlist</div>
+                        <div class="box-p2">Its easy, we'll help you</div> 
+                        <button class="badge">Create playlist</button>
+                        
+                    </div>
+                    <div class="box">
+                        <div class="box-p1">Lets find some podcast to follow</div>
+                        <div class="box-p2">We'll keep you updated on new Episodes</div> 
+                        <button class="badge">Browse podcasts</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="nav-icons">
+                <img src="backward_icon.png">
+                <img src="forward_icon.png">
+            </div>
+            <div class="sticky-nav-options">
+                <button class="badge">Explore Premium</button>
+                <button class="badge" style="background-color:  #191919; color: white;">
+                    <i class="fa-regular fa-circle-down" style="background-color: #191919; color: white;"></i>
+                    Install App</button>
+                    <i class="fa-regular fa-user "></i>
+                    
+                    
+                    
+            </div>
+            </div>
+            <div class="cards">
+                <h2 class="rece">Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card1img.jpeg">
+                        <p class="card-title">TOP 50-Global</p>
+                        <p class="card-info">Your daily updates of the most played tracks</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="fave">Favorites</h2>
+                <div class="songs">
+                
+                <div>
+                <img src="card2img.jpeg">
+                    <p class="card-title">Mere mahiya jinna sohna</p>
+                    <p class="card-info">From: Darshan Raval</p>
+                </div>
+                <div>
+                    <img src="card3img.jpeg">
+                    <p class="card-title">Mere paas tum ho</p>
+                    <p class="card-info">From: Rahat fateh ali Khan</p>
+                </div>
+                <div>
+                    <img src="card4img.jpeg">
+                    <p class="card-title">Naa Ready</p>
+                    <p class="card-info">From: Vishnu Edavan</p>
+                </div>
+                <div>
+                    <img src="card5img.jpeg">
+                    <p class="card-title">Top Global songs Playlist</p>
+                    <p class="card-info">Language: English and Hindi</p>
+                </div>
+                <div>
+                    <img src="card6img.jpeg">
+                    <p class="card-title">Top Indian Songs Playlist</p>
+                    <p class="card-info">Language: Hindi</p>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="iconss">
+            <i class="fa-solid fa-shuffle" style="color: #f5f5f5;"></i>
+            <i class="fa-solid fa-backward-step" style="color: #f4f5f5;"></i>
+            <i class="fa-solid fa-circle-pause" style="color: #f0f0f0; font-size: xx-large;"></i>
+            <i class="fa-solid fa-forward-step" style="color: #f4f5f5;"></i>
+            <i class="fa-solid fa-repeat"  style="color: #f4f5f5;"></i>
+            
+                <label for="volume"><i class="fa-solid fa-volume-high" style="color: #f7f9fd;"></i></label>
+            <input type="range" id="volume" min="0" max="100" name="volume">
+            
+        </div>
+        </div>
+    </div>
+</body>
+</html>
